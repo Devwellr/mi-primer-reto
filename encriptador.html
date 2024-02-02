@@ -8,29 +8,28 @@
     <title>Encriptador de texto</title>
 </head>
 <body>
-    <div>
+    <header>
         <nav>
             <img src="imagenes/Logo.png" alt="logotipo alura">
         </nav>
-    </div>
-    <div>
-        <label for="ingresoDeTexto"> solo letras minusculas y sin acentos</label><br>
-        <input type="text" name="texto" id="ingresoDeTexto" placeholder="Ingrese texto aqui.">
-    </div>
-    <div>
-        <input type="button" value="encriptar" onclick="">
-        <input type="button" value="desencripar" onclick="">
-    </div>
-    <div>
-        <input type="text" name="resultado" id="textoEncriptado" disabled id="hola">
-    </div>
-    
-    <div>
-        <footer>
+    </header>
+    <main>
+        <section>
+            <p>letras minusculas y sin acentos</p>
+            <input type="text" name="texto" id="ingresoDeTexto" placeholder="Ingrese texto aqui." required>
+        </section>
+        <section>
+            <input type="button" value="encriptar" onclick="">
+            <input type="button" value="desencripar" onclick="">
+        </section>
+        <section>
+            <textarea name="textoEncriptado" id="" cols="30" rows="10" disabled></textarea>
+        </section>
+    </main>
+    <footer>
             <h2>desarrollador: ricardo alvizar</h2>
-            <p> copyright</p>
-        </footer>
-    </div>
+            <p>&copy copyright</p>
+    </footer>
     <script src="app.js"></script>
 </body>
 </html>
