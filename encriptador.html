@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>Encriptador de texto</title>
@@ -10,20 +11,25 @@
 <body>
     <header>
         <nav>
-            <img src="imagenes/Logo.png" alt="logotipo alura">
+            <img src="imagenes/logotipo.png" alt="logotipo">
         </nav>
     </header>
     <main>
+        <div>
+           <input type="text" placeholder="Ingrese texto aqui.">
+        </div>
+        <div>
+            <p></p>
+            <img src="imagenes/Muñeco.png">
+            <img src="imagenes/msj-no-fue-encontrado.png">
+        </div>
         <section>
-            <p>letras minusculas y sin acentos</p>
-            <input type="text" name="texto" id="ingresoDeTexto" placeholder="Ingrese texto aqui." required>
-        </section>
-        <section>
-            <input type="button" value="encriptar" onclick="">
+            <p>✍ solo letras minusculas y sin acentos.</p>
+            <input type="submit" value="encriptar" onclick="">
             <input type="button" value="desencripar" onclick="">
         </section>
-        <section>
-            <textarea name="textoEncriptado" id="" cols="30" rows="10" disabled></textarea>
+        <section>         
+            <button id="copiar">copiar</button>
         </section>
     </main>
     <footer>
