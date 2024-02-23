@@ -1,2 +1,3 @@
 let textoEntrada = document.querySelector(".texto_entrada")
-console.log (textoEntrada)
+let textoSalida = document.querySelector(".texto_encriptado")
+console.log(textoEntrada, textoSalida)
