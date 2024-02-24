@@ -58,7 +58,7 @@
    text-align: center;
  }
 .texto_encriptado {
-  display:none;
+  display: block;
   background:blanchedalmond;
   width: 100%;
   height: 400px;
